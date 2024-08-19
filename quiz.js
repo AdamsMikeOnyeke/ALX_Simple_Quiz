@@ -6,7 +6,7 @@ function checkAnswer() {
     if (userAnswer === correctAnswer) {
         para.textContent = "Correct! Well done.";
     } else {
-        para.textContent= "IDIOT, nah only woman full your head";
+        para.textContent= "That's incorrect. Try again!";
     }
 }
 
